@@ -1,6 +1,6 @@
 [![Game Version](https://img.shields.io/badge/wow-3.3.5-blue.svg)](https://github.com/ElvUI-WotLK)
 [![Discord](https://discordapp.com/api/guilds/259362419372064778/widget.png?style=shield)](https://discord.gg/UXSc7nt)
-[![GitHub Actions](https://github.com/ElvUI-WotLK/ElvUI/workflows/lint/badge.svg?branch=master&event=push)](https://github.com/ElvUI-WotLK/ElvUI/actions?query=workflow%3Alint+branch%3Amaster)
+[![GitHub Actions](https://github.com/Crumdidlyumshis/ElvUI/workflows/lint/badge.svg?branch=development&event=push)](https://github.com/Crumdidlyumshis/ElvUI/actions?query=workflow%3Alint+branch%3Adevelopment)
 
 # ElvUI - Wrath of the Lich King (3.3.5a)
 
@@ -40,7 +40,7 @@ This UI will arrange your interface to be more flexible and practical.
 1. Download **[Latest Version](https://github.com/ElvUI-WotLK/ElvUI/releases/latest)**
 2. Unpack the Zip file
 3. Open the folder "ElvUI-(#.##)"
-4. Copy (or drag and drop) **ElvUI** and **ElvUI_OptionsUI** into your Wow-Directory\Interface\AddOns
+4. Copy (or drag and drop) **ElvUI** and **ElvUI_Options** into your Wow-Directory\Interface\AddOns
 5. Restart WoW
 
 ## Plugins:
@@ -104,8 +104,8 @@ This UI will arrange your interface to be more flexible and practical.
     -- Development ------------------------------------------------------------------------------------------------
     ---------------------------------------------------------------------------------------------------------------
     /etrace           Toggles events window.
-    /luaerror on      Enable luaerrors and disable all AddOns except ElvUI.
-    /luaerror off     Disable luaerrors and re-enable all AddOns disabled within that session.
+    /edebug on      Enable luaerrors and disable all AddOns except ElvUI.
+    /edebug off     Disable luaerrors and re-enable all AddOns disabled within that session.
     /cpuimpact        Toggles calculations of CPU Impact. Type /cpuimpact to get results when you are ready.
     /cpuusage         Calculates and dumps CPU usage differences (module: all, showall: false, minCalls: 15, delay: 5).
     /frame            Command to grab frame information when mouseing over a frame or when inputting the name.
